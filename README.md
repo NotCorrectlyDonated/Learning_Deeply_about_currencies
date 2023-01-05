@@ -33,16 +33,23 @@ To get as much data as possible, we will rely on one of our previous projects, W
 **Note: This project is made as a first approach, as we are concerned that some of the images obtained are erractic, with low quality or in digital form, which will definetly affect the model (even worse if we have a low quantity of images)**
 I managed to obtain a total of 500 images, well balanced between 4 types.
 
-## Increase the data 
-As with just only 500 images divided in 4 classes is highly insufficient for a sequential model to learn, we will use ``ImageDataGenerator`` library to "reorganize" each photo during every Epoch, by reescaling, rotating, zooming... So the database will increase the information potentially for the algorithm [^1].
-
-
-[^1]: Note that effects such as mirror will not have sense since the heads coins always face the same.
-
-
 ## Data wrangling
 
 Once we have uploaded the images from our local directory, created a dataframe and classified their types (target) we will need to sample the data (to get the algorithm to learn indifferently from all of them) and divide it into train, test and validation.
 
+## Increase the data 
+As with just only 500 images divided in 4 classes is highly insufficient for a sequential model to learn, we will use ``ImageDataGenerator`` library to "reorganize" each photo during every Epoch, by rotating, zooming, changing heigth... So the database will increase the information potentially for the algorithm [^1].
+
+We will also take advantage of this library to reescale the images, as this is how the keras model will be optimized.
+
+[^1]: Note that effects such as mirror will not have sense since the heads coins always face the same side.
+
+## Keras Sequential Model
+
+To develop an optimal algorithm I rely on a convolutional neural model, with 2 Convolutional 2D layers of 4x4 (activation in ``relu`` to avoid overfitting) and both a pool size of 3x3. The last layers are the Flatten one, the first one with 128 neurons (also with ``relu`` activation) and finally the exit with 4 neurons (as they are the 4 class) with ``softmax`` activation (as it is optimal for classes)
+
+### Metrics
+
+As we want to reduce the quantity of coins which are wrongly addressed, we will rely on **Recall** and also **CategoricalCrossentropy** as loss metric.
 
 
