@@ -18,8 +18,10 @@ We will try to focus into a model that can determine with enough precision betwe
 
 ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/Francia0%20(2).jpg)
 <sub>Conmemorative Athens 2004</sub> 
+
 ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image005.jpg) 
 <sub>Conmemorative Athens 2004</sub>
+
 ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image007.jpg)
 <sub>Conmemorative Athens 2004</sub>
 
