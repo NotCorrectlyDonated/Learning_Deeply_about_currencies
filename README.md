@@ -13,16 +13,16 @@ On this point is when we want to make a contribution to the society, by creating
 
 We will try to focus into a model that can determine with enough precision between 4 coins images. The ones that we are going to differentiate are 4 "2 euro" coins, 3 Conmemorative and 1 "national" coin.
 
-![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/Atenas0%20(78).jpg)
+![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/info/coin%20types/Atenas0%20(78).jpg)
 <sub>Conmemorative Athens 2004</sub>
 
-![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/Francia0%20(2).jpg)
+![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/info/coin%20types/Francia0%20(2).jpg)
 <sub>France National</sub> 
 
-![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image005.jpg) 
+![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/info/coin%20types/image005.jpg) 
 <sub>Conmemorative Pontifica 2006</sub>
 
-![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image007.jpg)
+![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/info/coin%20types/image007.jpg)
 <sub>Conmemorative Altamira 2015 </sub>
 
 
@@ -62,7 +62,7 @@ As we want to reduce the quantity of coins which are wrongly addressed, we will 
 
 After 41 epochs, we obtained a validation recall of 0,724  and a validation loss of 0,743. On the other side, when checking on test, we obtained a recall of 0,81 and a loss of 0,568.
 
-![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/info/Keras%20graph.png)
+![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/info/Model%20training%20metric.png)
 <sub> Evolution of the recall metric in the model </sub> 
 
 
