@@ -62,7 +62,7 @@ As we want to reduce the quantity of coins which are wrongly addressed, we will 
 
 After 41 epochs, we obtained a validation recall of 0,724  and a validation loss of 0,743. On the other side, when checking on test, we obtained a recall of 0,81 and a loss of 0,568.
 
-![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/info/Model%20training%20metric.png)
+![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/info/Model%20training%20metric.PNG)
 <sub> Evolution of the recall metric in the model </sub> 
 
 
