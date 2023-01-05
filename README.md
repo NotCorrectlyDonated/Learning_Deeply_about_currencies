@@ -17,19 +17,32 @@ We will try to focus into a model that can determine with enough precision betwe
 <sub>Conmemorative Athens 2004</sub>
 
 ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/Francia0%20(2).jpg)
-<sub>Conmemorative Athens 2004</sub> 
+<sub>France National</sub> 
 
 ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image005.jpg) 
-<sub>Conmemorative Athens 2004</sub>
+<sub>Conmemorative Pontifica 2006</sub>
 
 ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image007.jpg)
-<sub>Conmemorative Athens 2004</sub>
-
-<sub>Conmemorative Athens 2004</sub> <sub>Conmemorative Athens 2004</sub> <sub>Conmemorative Athens 2004</sub> <sub>Conmemorative Athens 2004</sub>
+<sub>Conmemorative Altamira 2015 </sub>
 
 
-Our first approach will be to obtain as much images we can in order to train the model as much as possible, and this is when one of the difficulties comes up. When talking about Conmemorative coins,
 
+Our first approach will be to obtain as much images we can in order to train the model as much as possible, and this is when one of the difficulties comes up. Due to the novelty of the project, there are not many databases englobing images of the "heads" of coin types, and it get even worse when talking about conmemorative coins.
+
+To get as much data as possible, we will rely on one of our previous projects, Web Scrapping with Google Images. (You can see it [here](https://github.com/NotCorrectlyDonated/Google_Images_Scraping) ). 
+**Note: This project is made as a first approach, as we are concerned that some of the images obtained are erractic, with low quality or in digital form, which will definetly affect the model (even worse if we have a low quantity of images)**
+I managed to obtain a total of 500 images, well balanced between 4 types.
+
+## Increase the data 
+As with just only 500 images divided in 4 classes is highly insufficient for a sequential model to learn, we will use ``ImageDataGenerator`` library to "reorganize" each photo during every Epoch, by reescaling, rotating, zooming... So the database will increase the information potentially for the algorithm [^1].
+
+
+[^1]: Note that effects such as mirror will not have sense since the heads coins always face the same.
+
+
+## Data wrangling
+
+Once we have uploaded the images from our local directory, created a dataframe and classified their types (target) we will need to sample the data (to get the algorithm to learn indifferently from all of them) and divide it into train, test and validation.
 
 
 
