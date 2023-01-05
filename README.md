@@ -48,6 +48,9 @@ We will also take advantage of this library to reescale the images, as this is h
 
 To develop an optimal algorithm I rely on a convolutional neural model, with 2 Convolutional 2D layers of 4x4 (activation in ``relu`` to avoid overfitting) and both a pool size of 3x3. The last layers are the Flatten one, the first one with 128 neurons (also with ``relu`` activation) and finally the exit with 4 neurons (as they are the 4 class) with ``softmax`` activation (as it is optimal for classes)
 
+![ey]https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/info/Keras%20graph.png)
+<sub> Keras model used </sub>
+
 ### Metrics
 
 As we want to reduce the quantity of coins which are wrongly addressed, we will rely on **Recall** and also **CategoricalCrossentropy** as loss metric.
