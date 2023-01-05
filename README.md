@@ -15,7 +15,7 @@ We will try to focus into a model that can determine with enough precision betwe
 
 ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/Atenas0%20(78).jpg) ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/Francia0%20(2).jpg) ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image005.jpg) ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image007.jpg) 
 
-<sub>Conmemorative Athens 2004<sub/> <sub>Conmemorative Athens 2004<sub/> <sub>Conmemorative Athens 2004<sub/> <sub>Conmemorative Athens 2004<sub/>
+<sub>Conmemorative Athens 2004</sub> <sub>Conmemorative Athens 2004</sub> <sub>Conmemorative Athens 2004</sub> <sub>Conmemorative Athens 2004</sub>
 
 Our first approach will be to obtain as much images we can in order to train the model as much as possible, and this is when one of the difficulties comes up. When talking about Conmemorative coins,
 
