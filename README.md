@@ -14,6 +14,8 @@ On this point is when we want to make a contribution to the society, by creating
 We will try to focus into a model that can determine with enough precision between 4 coins images. The ones that we are going to differentiate are 4 "2 euro" coins, 3 Conmemorative and 1 "national" coin.
 
 
+
+
 Our first approach will be to obtain as much images we can in order to train the model as much as possible, and this is when one of the difficulties comes up. When talking about Conmemorative coins,
 
 
