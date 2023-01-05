@@ -13,7 +13,7 @@ On this point is when we want to make a contribution to the society, by creating
 
 We will try to focus into a model that can determine with enough precision between 4 coins images. The ones that we are going to differentiate are 4 "2 euro" coins, 3 Conmemorative and 1 "national" coin.
 
-![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image002.jpg) ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image004.jpg) ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image005.jpg) ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image006.jpg) 
+![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/Atenas0.jpg) ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/Francia0.jpg) ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image005.jpg) ![ey](https://raw.githubusercontent.com/NotCorrectlyDonated/Learning_Deeply_about_currencies/main/coin%20types/image007.jpg) 
 
 <sub>Conmemorative Athens 2004<sub/> <sub>Conmemorative Athens 2004<sub/> <sub>Conmemorative Athens 2004<sub/> <sub>Conmemorative Athens 2004<sub/>
 
